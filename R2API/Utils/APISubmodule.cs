@@ -1,3 +1,4 @@
+using BepInEx.Configuration;
 using BepInEx.Logging;
 using JetBrains.Annotations;
 using Mono.Cecil;
@@ -56,11 +57,22 @@ namespace R2API.Utils {
         private readonly int _build;
         private readonly ManualLogSource? _logger;
         private HashSet<string> _moduleSet;
+        private ConfigFile _config;
+        private ConfigEntry<string> _moduleSetCache;
         private static HashSet<string> LoadedModules;
 
-        internal APISubmoduleHandler(int build, ManualLogSource? logger = null) {
+        private const string ModuleSetCacheSeparator = ",";
+
+        internal APISubmoduleHandler(int build, ConfigFile config, ManualLogSource? logger = null) {
             _build = build;
+            _config = config;
             _logger = logger;
+
+            _moduleSetCache = _config.Bind<string>(
+                nameof(Cache), "EnabledSubmodules", "",
+                "List of the R2API Submodule(s) that have been enabled the last game launch."
+                + Environment.NewLine +
+                Cache.CachedDataIsReused);
         }
 
         /// <summary>
@@ -70,8 +82,6 @@ namespace R2API.Utils {
         public static bool IsLoaded(string? submodule) => LoadedModules.Contains(submodule);
 
         internal HashSet<string> LoadRequested(PluginScanner? pluginScanner) {
-            _moduleSet = new HashSet<string>();
-
             void AddModuleToSet(IEnumerable<CustomAttributeArgument> arguments) {
                 foreach (var arg in arguments) {
                     foreach (var stringElement in (CustomAttributeArgument[])arg.Value) {
@@ -104,9 +114,18 @@ namespace R2API.Utils {
                     .ForEachTry(t => t.SetFieldValue("_loaded", true));
                 moduleTypes.Where(t => !faults.ContainsKey(t))
                     .ForEachTry(t => LoadedModules.Add(t.Name));
+
+                _moduleSetCache.Value = string.Join(ModuleSetCacheSeparator, _moduleSet);
             }
 
-            var scanRequest = new PluginScanner.AttributeScanRequest(attributeTypeFullName: typeof(R2APISubmoduleDependency).FullName,
+            if (Cache.UseCache) {
+                _moduleSet = new HashSet<string>(_moduleSetCache.Value.Split(new[] { ModuleSetCacheSeparator }, StringSplitOptions.RemoveEmptyEntries));
+                CallWhenAssembliesAreScanned();
+            }
+            else {
+                _moduleSet = new HashSet<string>();
+
+                var scanRequest = new PluginScanner.AttributeScanRequest(attributeTypeFullName: typeof(R2APISubmoduleDependency).FullName,
                 attributeTargets: AttributeTargets.Assembly | AttributeTargets.Class,
                 CallWhenAssembliesAreScanned, oneMatchPerAssembly: false,
                 foundOnAssemblyAttributes: (assembly, arguments) =>
@@ -115,7 +134,8 @@ namespace R2API.Utils {
                     AddModuleToSet(arguments)
                 );
 
-            pluginScanner.AddScanRequest(scanRequest);
+                pluginScanner.AddScanRequest(scanRequest);
+            }
 
             return LoadedModules;
         }
@@ -131,7 +151,6 @@ namespace R2API.Utils {
                 return true;
             }
 
-            // Comment this out if you want to try every submodules working (or not) state
             if (!_moduleSet.Contains(type.Name)) {
                 var shouldload = new object[1];
                 InvokeStage(type, InitStage.LoadCheck, shouldload);
