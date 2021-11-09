@@ -1,11 +1,10 @@
-﻿using R2API.MiscHelpers;
+﻿using BepInEx.Configuration;
+using R2API.MiscHelpers;
 using R2API.Networking;
 using RoR2;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Reflection;
 
 namespace R2API.Utils {
 
@@ -59,43 +58,68 @@ namespace R2API.Utils {
 
     internal class NetworkCompatibilityHandler {
         internal const char ModGuidAndModVersionSeparator = ';';
+        internal const string SortedModListCacheSeparator = ",";
         internal readonly HashSet<string> ModList = new HashSet<string>();
+        internal readonly ConfigEntry<string> _sortedModListCache;
+        private ConfigFile _config;
+
+        internal NetworkCompatibilityHandler(ConfigFile config) {
+            _config = config;
+
+            _sortedModListCache = _config.Bind<string>(
+                "Cache", "SortedNetworkModCompatibilityList", "",
+                "List of the mods that need to be downloaded by everyone in a multiplayer session."
+                + Environment.NewLine +
+                Cache.CachedDataIsReused);
+        }
 
         internal void BuildModList() {
             R2API.R2APIStart += ScanPluginsForNetworkCompat;
         }
 
         private void ScanPluginsForNetworkCompat(object? _, EventArgs __) {
-            foreach (var (_, pluginInfo) in BepInEx.Bootstrap.Chainloader.PluginInfos) {
-                try {
-                    var modGuid = pluginInfo.Metadata.GUID;
-                    var modVer = pluginInfo.Metadata.Version;
+            if (Cache.UseCache) {
+                var sortedModList = _sortedModListCache.Value.Split(new[] { SortedModListCacheSeparator }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-                    if (modGuid == R2API.PluginGUID) {
-                        continue;
+                // Make sure its sorted
+                sortedModList.Sort(StringComparer.InvariantCulture);
+                _sortedModListCache.Value = string.Join(SortedModListCacheSeparator, sortedModList);
+
+                AddToNetworkModCompatibilityHelper(sortedModList);
+            }
+            else {
+                foreach (var (_, pluginInfo) in BepInEx.Bootstrap.Chainloader.PluginInfos) {
+                    try {
+                        var modGuid = pluginInfo.Metadata.GUID;
+                        var modVer = pluginInfo.Metadata.Version;
+
+                        if (modGuid == R2API.PluginGUID) {
+                            continue;
+                        }
+
+                        if (pluginInfo.Dependencies.All(dependency => dependency.DependencyGUID != R2API.PluginGUID || dependency.Flags == BepInEx.BepInDependency.DependencyFlags.SoftDependency)) {
+                            continue;
+                        }
+
+                        TryGetNetworkCompatibility(pluginInfo.Instance.GetType(), out var networkCompatibility);
+                        if (networkCompatibility.CompatibilityLevel == CompatibilityLevel.EveryoneMustHaveMod) {
+                            ModList.Add(networkCompatibility.VersionStrictness == VersionStrictness.EveryoneNeedSameModVersion
+                                ? modGuid + ModGuidAndModVersionSeparator + modVer
+                                : modGuid);
+                        }
                     }
-
-                    if (pluginInfo.Dependencies.All(dependency => dependency.DependencyGUID != R2API.PluginGUID || dependency.Flags == BepInEx.BepInDependency.DependencyFlags.SoftDependency)) {
-                        continue;
-                    }
-
-                    TryGetNetworkCompatibility(pluginInfo.Instance.GetType(), out var networkCompatibility);
-                    if (networkCompatibility.CompatibilityLevel == CompatibilityLevel.EveryoneMustHaveMod) {
-                        ModList.Add(networkCompatibility.VersionStrictness == VersionStrictness.EveryoneNeedSameModVersion
-                            ? modGuid + ModGuidAndModVersionSeparator + modVer
-                            : modGuid);
+                    catch (Exception e) {
+                        R2API.Logger.LogError($"Exception in ScanPluginsForNetworkCompat while scanning plugin {pluginInfo.Metadata.GUID}");
+                        R2API.Logger.LogError("R2API Failed to properly scan the assembly." + Environment.NewLine +
+                                              "Please make sure you are compiling against net standard 2.0 " +
+                                              "and not anything else when making a plugin for Risk of Rain 2 !" +
+                                              Environment.NewLine + e);
                     }
                 }
-                catch (Exception e) {
-                    R2API.Logger.LogError($"Exception in ScanPluginsForNetworkCompat while scanning plugin {pluginInfo.Metadata.GUID}");
-                    R2API.Logger.LogError("R2API Failed to properly scan the assembly." + Environment.NewLine +
-                                          "Please make sure you are compiling against net standard 2.0 " +
-                                          "and not anything else when making a plugin for Risk of Rain 2 !" +
-                                          Environment.NewLine + e);
-                }
+
+                AddToNetworkModList();
             }
 
-            AddToNetworkModList();
             R2API.R2APIStart -= ScanPluginsForNetworkCompat;
         }
 
@@ -129,11 +153,16 @@ namespace R2API.Utils {
                 }
                 var sortedModList = ModList.ToList();
                 sortedModList.Sort(StringComparer.InvariantCulture);
-                R2API.Logger.LogInfo("[NetworkCompatibility] Adding to the networkModList : ");
-                foreach (var mod in sortedModList) {
-                    R2API.Logger.LogInfo(mod);
-                    NetworkModCompatibilityHelper.networkModList = NetworkModCompatibilityHelper.networkModList.Append(mod);
-                }
+                _sortedModListCache.Value = string.Join(SortedModListCacheSeparator, sortedModList);
+                AddToNetworkModCompatibilityHelper(sortedModList);
+            }
+        }
+
+        private static void AddToNetworkModCompatibilityHelper(IEnumerable<string> sortedModList) {
+            R2API.Logger.LogInfo("[NetworkCompatibility] Adding to the networkModList : ");
+            foreach (var mod in sortedModList) {
+                R2API.Logger.LogInfo(mod);
+                NetworkModCompatibilityHelper.networkModList = NetworkModCompatibilityHelper.networkModList.Append(mod);
             }
         }
 
