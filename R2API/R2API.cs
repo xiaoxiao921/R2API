@@ -57,12 +57,16 @@ namespace R2API {
 
             LoadRoR2ContentEarly.Init();
 
-            var pluginScanner = new PluginScanner();
-            var submoduleHandler = new APISubmoduleHandler(GameBuild, Logger);
-            LoadedSubmodules = submoduleHandler.LoadRequested(pluginScanner);
-            pluginScanner.ScanPlugins();
+            Cache.Init(Config);
 
-            var networkCompatibilityHandler = new NetworkCompatibilityHandler();
+            var pluginScanner = new PluginScanner();
+            var submoduleHandler = new APISubmoduleHandler(GameBuild, Config, Logger);
+            LoadedSubmodules = submoduleHandler.LoadRequested(pluginScanner);
+            if (!Cache.UseCache) {
+                pluginScanner.ScanPlugins();
+            }
+
+            var networkCompatibilityHandler = new NetworkCompatibilityHandler(Config);
             networkCompatibilityHandler.BuildModList();
 
             RoR2Application.isModded = true;
