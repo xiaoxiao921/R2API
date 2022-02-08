@@ -72,11 +72,17 @@ namespace R2API {
             if (!Loaded) {
                 throw new InvalidOperationException($"{nameof(PrefabAPI)} is not loaded. Please use [{nameof(R2APISubmoduleDependency)}(nameof({nameof(PrefabAPI)})]");
             }
+
+            if (!g)
+                throw new ArgumentNullException("gameObject");
+
             var prefab = UnityObject.Instantiate(g, GetParent().transform);
             prefab.name = nameToSet;
+
             if (registerNetwork) {
                 RegisterPrefabInternal(prefab, new StackFrame(2));
             }
+
             return prefab;
         }
 
@@ -103,6 +109,9 @@ namespace R2API {
                 R2API.Logger.LogError("PrefabAPI is not loaded. Please use [R2API.Utils.SubModuleDependency]");
                 return;
             }
+
+            if (!g)
+                throw new ArgumentNullException("gameObject");
 
             RegisterPrefabInternal(g, new StackFrame(2));
         }
