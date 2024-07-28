@@ -27,12 +27,13 @@ jobs:
 
       - name: Setup DocFx
         run: dotnet tool update -g docfx
-      
-      - name: Dotnet Restore
-        run: dotnet tool restore
+
+      - run: cd docs
 
       - name: Build
-        run: docfx docs/docfx.json
+        run: docfx docfx.json
+
+      - run: cd ..
       
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v2
