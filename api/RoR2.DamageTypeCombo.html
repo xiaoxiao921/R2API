@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Delegate RecalculateStatsAPI.StatHookEventHandler </title>
+      <title>Struct DamageTypeCombo </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Delegate RecalculateStatsAPI.StatHookEventHandler ">
+      <meta name="title" content="Struct DamageTypeCombo ">
     
-    <meta name="description" content="Used as the delegate type for the GetStatCoefficients event.">
+    
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,41 +66,68 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="R2API.RecalculateStatsAPI.StatHookEventHandler">
+            <article class="content wrap" id="_content" data-uid="RoR2.DamageTypeCombo">
 
 
 
-  <h1 id="R2API_RecalculateStatsAPI_StatHookEventHandler" data-uid="R2API.RecalculateStatsAPI.StatHookEventHandler" class="text-break">Delegate RecalculateStatsAPI.StatHookEventHandler</h1>
-  <div class="markdown level0 summary"><p>Used as the delegate type for the GetStatCoefficients event.</p>
-</div>
+  <h1 id="RoR2_DamageTypeCombo" data-uid="RoR2.DamageTypeCombo" class="text-break">Struct DamageTypeCombo</h1>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="R2API.html">R2API</a></h6>
-  <h6><strong>Assembly</strong>: R2API.RecalculateStats.dll</h6>
-  <h5 id="R2API_RecalculateStatsAPI_StatHookEventHandler_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void RecalculateStatsAPI.StatHookEventHandler(CharacterBody sender, RecalculateStatsAPI.StatHookEventArgs args)</code></pre>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RoR2.html">RoR2</a></h6>
+  <h6><strong>Assembly</strong>: RoR2.dll</h6>
+  <h5 id="RoR2_DamageTypeCombo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct DamageTypeCombo</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xiaoxiao921/R2API/new/master/apiSpec/new?filename=RoR2_DamageTypeCombo_r2api_moddedDamageTypes.md&amp;value=---%0Auid%3A%20RoR2.DamageTypeCombo.r2api_moddedDamageTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xiaoxiao921/R2API/blob/master/RoR2.Patched/DamageTypeCombo.cs/#L9">View Source</a>
+  </span>
+  <h4 id="RoR2_DamageTypeCombo_r2api_moddedDamageTypes" data-uid="RoR2.DamageTypeCombo.r2api_moddedDamageTypes">r2api_moddedDamageTypes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] r2api_moddedDamageTypes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CharacterBody</span></td>
-        <td><span class="parametername">sender</span></td>
-        <td><p>The CharacterBody which RecalculateStats is being called for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="R2API.RecalculateStatsAPI.html">RecalculateStatsAPI</a>.<a class="xref" href="R2API.RecalculateStatsAPI.StatHookEventArgs.html">StatHookEventArgs</a></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>An instance of StatHookEventArgs, passed to each subscriber to this event in turn for modification.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -110,6 +137,15 @@
   </div>
   <div>
       <a class="xref" href="R2API.Networking.Interfaces.NetRequestExtensions.html#R2API_Networking_Interfaces_NetRequestExtensions_Send__2___0_UnityEngine_Networking_NetworkConnection_">NetRequestExtensions.Send&lt;TRequest, TReply&gt;(TRequest, NetworkConnection)</a>
+  </div>
+  <div>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_GetStructPropertyValue__2___0__System_String_">Reflection.GetStructPropertyValue&lt;TInstance, TValue&gt;(ref TInstance, string?)</a>
+  </div>
+  <div>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructFieldValue__2___0__System_String___1_">Reflection.SetStructFieldValue&lt;TInstance, TValue&gt;(ref TInstance, string?, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructPropertyValue__2___0__System_String___1_">Reflection.SetStructPropertyValue&lt;TInstance, TValue&gt;(ref TInstance, string?, TValue)</a>
   </div>
   <div>
       <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_GetFieldValue__1_System_Object_System_String_">Reflection.GetFieldValue&lt;TReturn&gt;(object?, string?)</a>
@@ -144,10 +180,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/xiaoxiao921/R2API/new/master/apiSpec/new?filename=R2API_RecalculateStatsAPI_StatHookEventHandler.md&amp;value=---%0Auid%3A%20R2API.RecalculateStatsAPI.StatHookEventHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/xiaoxiao921/R2API/new/master/apiSpec/new?filename=RoR2_DamageTypeCombo.md&amp;value=---%0Auid%3A%20RoR2.DamageTypeCombo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/xiaoxiao921/R2API/blob/master/R2API.RecalculateStats/RecalculateStatsAPI.cs/#L213" class="contribution-link">View Source</a>
+                    <a href="https://github.com/xiaoxiao921/R2API/blob/master/RoR2.Patched/DamageTypeCombo.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
