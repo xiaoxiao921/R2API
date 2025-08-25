@@ -89,7 +89,7 @@ Classes
       <section><p>Represents a version of <span class="xref">RoR2.DccsPool.PoolEntry</span> that can use either a <a class="xref" href="R2API.AddressableDirectorCardCategorySelection.html">AddressableDirectorCardCategorySelection</a> for representing a pool entry, or a <a class="xref" href="R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.html">AddressReferencedFamilyDirectorCardCategorySelection</a> for representing a family entr.</p>
 </section>
       <h4><a class="xref" href="R2API.AddressableDirectorCard.html">AddressableDirectorCard</a></h4>
-      <section><p>Represents a <span class="xref">RoR2.DirectorCard</span> that can be created from using</p>
+      <section><p>Represents a <span class="xref">RoR2.DirectorCard</span> that can be created from using <a class="xref" href="R2API.AddressReferencedAssets.AddressReferencedSpawnCard.html">AddressReferencedSpawnCard</a></p>
 </section>
       <h4><a class="xref" href="R2API.AddressableDirectorCardCategorySelection.html">AddressableDirectorCardCategorySelection</a></h4>
       <section><p>A <a class="xref" href="R2API.AddressableDirectorCardCategorySelection.html">AddressableDirectorCardCategorySelection</a> is a version of a <span class="xref">RoR2.DirectorCardCategorySelection</span> that can be used for creating a custom and complex <span class="xref">RoR2.DirectorCardCategorySelection</span> for stages, using R2API's <a class="xref" href="R2API.AddressReferencedAssets.AddressReferencedAsset.html">AddressReferencedAsset</a> system and your own existing spawn cards</p>
@@ -111,6 +111,11 @@ Classes
       <section><p>Contains the values of Vanilla risk of rain 2 Artifact Compounds.</p>
 </section>
       <h4><a class="xref" href="R2API.ArtifactCodePlugin.html">ArtifactCodePlugin</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.CharacterBodyAPI.html">CharacterBodyAPI</a></h4>
+      <section><p>API for adding various stuff to Character Body such as: Modded Body Flags</p>
+</section>
+      <h4><a class="xref" href="R2API.CharacterBodyPlugin.html">CharacterBodyPlugin</a></h4>
       <section></section>
       <h4><a class="xref" href="R2API.ColorsAPI.html">ColorsAPI</a></h4>
       <section></section>
@@ -279,9 +284,6 @@ Unlike regular RuleChoiceDefs, an ExtendedRulechoiceDef can have multiple requir
       <h4><a class="xref" href="R2API.SkinIDRS.html">SkinIDRS</a></h4>
       <section><p>Class for adding Skin Specific ItemDisplayRuleSets for skin defs.</p>
 </section>
-      <h4><a class="xref" href="R2API.SkinLightReplacement.html">SkinLightReplacement</a></h4>
-      <section><p>Static class utilized for implementing Light Replacements for a Model</p>
-</section>
       <h4><a class="xref" href="R2API.SkinVFX.html">SkinVFX</a></h4>
       <section><p>Class for adding skin-specific effect replacements for SkinDefs.</p>
 </section>
@@ -351,14 +353,16 @@ It stores the enum value as an Int64 for serialization purposes.</p>
       <h4><a class="xref" href="R2API.LanguageAPI.OverlayTokenData.html">LanguageAPI.OverlayTokenData</a></h4>
       <section><p>Contains information about a single temporary language token change.</p>
 </section>
-      <h4><a class="xref" href="R2API.LightReplacement.html">LightReplacement</a></h4>
-      <section><p>Struct that represents a LightReplacement for a Skin</p>
-</section>
       <h4><a class="xref" href="R2API.LoadoutAPI.SkinDefInfo.html">LoadoutAPI.SkinDefInfo</a></h4>
       <section></section>
       <h4><a class="xref" href="R2API.SkinDefInfo.html">SkinDefInfo</a></h4>
-      <section><p>A container struct for all SkinDef parameters.
-Use this to set skinDef values, then call CreateNewSkinDef().</p>
+      <section><p>Use <a class="xref" href="R2API.SkinDefParamsInfo.html">SkinDefParamsInfo</a> instead</p>
+</section>
+      <h4><a class="xref" href="R2API.SkinDefParamsInfo.html">SkinDefParamsInfo</a></h4>
+      <section><p>A container struct for all SkinDef and SkinDefParams data.
+Use this to set skinDef values, then call CreateNewSkinDef().
+Leave SkinDefParams null to create one automatically with the given arrays.
+If SkinDefParams is not null, the arrays will be ignored and the SkinDefParams fields will take priority.</p>
 </section>
       <h4><a class="xref" href="R2API.SoundAPI.Music.CustomMusicTrackDef.CustomState.html">SoundAPI.Music.CustomMusicTrackDef.CustomState</a></h4>
       <section><p>Struct for storing the wwise state data
@@ -385,6 +389,8 @@ Interfaces
     <h3 id="enums">
 Enums
 </h3>
+      <h4><a class="xref" href="R2API.CharacterBodyAPI.ModdedBodyFlag.html">CharacterBodyAPI.ModdedBodyFlag</a></h4>
+      <section></section>
       <h4><a class="xref" href="R2API.DamageAPI.ModdedDamageType.html">DamageAPI.ModdedDamageType</a></h4>
       <section></section>
       <h4><a class="xref" href="R2API.DirectorAPI.InteractableCategory.html">DirectorAPI.InteractableCategory</a></h4>

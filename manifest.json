@@ -284,6 +284,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.CharacterBodyAPI.ModdedBodyFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.CharacterBodyAPI.ModdedBodyFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.CharacterBodyAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.CharacterBodyAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.CharacterBodyPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.CharacterBodyPlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.ColorsAPI.yml",
       "output": {
         ".html": {
@@ -798,16 +828,6 @@
       "output": {
         ".html": {
           "relative_path": "api/R2API.LanguagePlugin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/R2API.LightReplacement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/R2API.LightReplacement.html"
         }
       },
       "version": ""
@@ -1574,20 +1594,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/R2API.SkinIDRS.yml",
+      "source_relative_path": "api/R2API.SkinDefParamsInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/R2API.SkinIDRS.html"
+          "relative_path": "api/R2API.SkinDefParamsInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/R2API.SkinLightReplacement.yml",
+      "source_relative_path": "api/R2API.SkinIDRS.yml",
       "output": {
         ".html": {
-          "relative_path": "api/R2API.SkinLightReplacement.html"
+          "relative_path": "api/R2API.SkinIDRS.html"
         }
       },
       "version": ""
@@ -2178,6 +2198,16 @@
       "output": {
         ".html": {
           "relative_path": "api/R2API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.CharacterBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.CharacterBody.html"
         }
       },
       "version": ""

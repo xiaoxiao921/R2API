@@ -19,6 +19,45 @@ references:
   commentId: T:R2API.AddressReferencedAssets.AddressReferencedAsset
   fullName: R2API.AddressReferencedAssets.AddressReferencedAsset
   nameWithType: AddressReferencedAsset
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle
+  name: AsyncOperationHandle
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_AsyncOperationHandle
+  commentId: P:R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle
+  nameWithType: AddressReferencedAsset.AsyncOperationHandle
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle*
+  name: AsyncOperationHandle
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_AsyncOperationHandle_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.AsyncOperationHandle
+  nameWithType: AddressReferencedAsset.AsyncOperationHandle
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset
+  name: BoxedAsset
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_BoxedAsset
+  commentId: P:R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset
+  nameWithType: AddressReferencedAsset.BoxedAsset
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset*
+  name: BoxedAsset
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_BoxedAsset_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.BoxedAsset
+  nameWithType: AddressReferencedAsset.BoxedAsset
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose
+  name: Dispose()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_Dispose
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose()
+  nameWithType: AddressReferencedAsset.Dispose()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose*
+  name: Dispose
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_Dispose_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.Dispose
+  nameWithType: AddressReferencedAsset.Dispose
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset.Initialized
   name: Initialized
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_Initialized
@@ -45,6 +84,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsync
   nameWithType: AddressReferencedAsset.LoadAssetAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine
+  name: LoadAssetAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_LoadAssetAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine()
+  nameWithType: AddressReferencedAsset.LoadAssetAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine*
+  name: LoadAssetAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_LoadAssetAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset.LoadAssetAsyncCoroutine
+  nameWithType: AddressReferencedAsset.LoadAssetAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset.OnAddressReferencedAssetsLoaded
   name: OnAddressReferencedAssetsLoaded
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset.html#R2API_AddressReferencedAssets_AddressReferencedAsset_OnAddressReferencedAssetsLoaded
@@ -180,6 +232,40 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).AssetExists
   nameWithType: AddressReferencedAsset<T>.AssetExists
   nameWithType.vb: AddressReferencedAsset(Of T).AssetExists
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.AsyncOperationHandle
+  name: AsyncOperationHandle
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_AsyncOperationHandle
+  commentId: P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.AsyncOperationHandle
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.AsyncOperationHandle
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).AsyncOperationHandle
+  nameWithType: AddressReferencedAsset<T>.AsyncOperationHandle
+  nameWithType.vb: AddressReferencedAsset(Of T).AsyncOperationHandle
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.AsyncOperationHandle*
+  name: AsyncOperationHandle
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_AsyncOperationHandle_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.AsyncOperationHandle
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.AsyncOperationHandle
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).AsyncOperationHandle
+  nameWithType: AddressReferencedAsset<T>.AsyncOperationHandle
+  nameWithType.vb: AddressReferencedAsset(Of T).AsyncOperationHandle
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.BoxedAsset
+  name: BoxedAsset
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_BoxedAsset
+  commentId: P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.BoxedAsset
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.BoxedAsset
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).BoxedAsset
+  nameWithType: AddressReferencedAsset<T>.BoxedAsset
+  nameWithType.vb: AddressReferencedAsset(Of T).BoxedAsset
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.BoxedAsset*
+  name: BoxedAsset
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_BoxedAsset_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.BoxedAsset
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.BoxedAsset
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).BoxedAsset
+  nameWithType: AddressReferencedAsset<T>.BoxedAsset
+  nameWithType.vb: AddressReferencedAsset(Of T).BoxedAsset
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.CanLoadFromCatalog
   name: CanLoadFromCatalog
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_CanLoadFromCatalog
@@ -197,6 +283,23 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).CanLoadFromCatalog
   nameWithType: AddressReferencedAsset<T>.CanLoadFromCatalog
   nameWithType.vb: AddressReferencedAsset(Of T).CanLoadFromCatalog
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.Dispose
+  name: Dispose()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_Dispose
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Dispose
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.Dispose()
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).Dispose()
+  nameWithType: AddressReferencedAsset<T>.Dispose()
+  nameWithType.vb: AddressReferencedAsset(Of T).Dispose()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.Dispose*
+  name: Dispose
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_Dispose_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Dispose
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.Dispose
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).Dispose
+  nameWithType: AddressReferencedAsset<T>.Dispose
+  nameWithType.vb: AddressReferencedAsset(Of T).Dispose
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.Finalize
   name: ~AddressReferencedAsset()
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_Finalize
@@ -264,6 +367,58 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetAsync
   nameWithType: AddressReferencedAsset<T>.LoadAssetAsync
   nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetAsyncCoroutine
+  name: LoadAssetAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetAsyncCoroutine()
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetAsyncCoroutine()
+  nameWithType: AddressReferencedAsset<T>.LoadAssetAsyncCoroutine()
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetAsyncCoroutine*
+  name: LoadAssetAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetAsyncCoroutine
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetAsyncCoroutine
+  nameWithType: AddressReferencedAsset<T>.LoadAssetAsyncCoroutine
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetAsyncCoroutine
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNow
+  name: LoadAssetNow()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetNow
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNow
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetNow()
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetNow()
+  nameWithType: AddressReferencedAsset<T>.LoadAssetNow()
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetNow()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNow*
+  name: LoadAssetNow
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetNow_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNow
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetNow
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetNow
+  nameWithType: AddressReferencedAsset<T>.LoadAssetNow
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetNow
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNowCoroutine(System.Action{`0})
+  name: LoadAssetNowCoroutine(Action<T>)
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetNowCoroutine_System_Action__0__
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNowCoroutine(System.Action{`0})
+  name.vb: LoadAssetNowCoroutine(Action(Of T))
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetNowCoroutine(System.Action<T>)
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetNowCoroutine(System.Action(Of T))
+  nameWithType: AddressReferencedAsset<T>.LoadAssetNowCoroutine(Action<T>)
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetNowCoroutine(Action(Of T))
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNowCoroutine*
+  name: LoadAssetNowCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAssetNowCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAssetNowCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAssetNowCoroutine
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAssetNowCoroutine
+  nameWithType: AddressReferencedAsset<T>.LoadAssetNowCoroutine
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAssetNowCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAsync
   name: LoadAsync()
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAsync
@@ -281,6 +436,23 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAsync
   nameWithType: AddressReferencedAsset<T>.LoadAsync
   nameWithType.vb: AddressReferencedAsset(Of T).LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAsyncCoroutine()
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAsyncCoroutine()
+  nameWithType: AddressReferencedAsset<T>.LoadAsyncCoroutine()
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadAsyncCoroutine
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadAsyncCoroutine
+  nameWithType: AddressReferencedAsset<T>.LoadAsyncCoroutine
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadFromAddress
   name: LoadFromAddress()
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadFromAddress
@@ -315,6 +487,23 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadFromAddressAsync
   nameWithType: AddressReferencedAsset<T>.LoadFromAddressAsync
   nameWithType.vb: AddressReferencedAsset(Of T).LoadFromAddressAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadFromAddressAsyncCoroutine
+  name: LoadFromAddressAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadFromAddressAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadFromAddressAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadFromAddressAsyncCoroutine()
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadFromAddressAsyncCoroutine()
+  nameWithType: AddressReferencedAsset<T>.LoadFromAddressAsyncCoroutine()
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadFromAddressAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadFromAddressAsyncCoroutine*
+  name: LoadFromAddressAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_LoadFromAddressAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedAsset`1.LoadFromAddressAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedAsset<T>.LoadFromAddressAsyncCoroutine
+  fullName.vb: R2API.AddressReferencedAssets.AddressReferencedAsset(Of T).LoadFromAddressAsyncCoroutine
+  nameWithType: AddressReferencedAsset<T>.LoadFromAddressAsyncCoroutine
+  nameWithType.vb: AddressReferencedAsset(Of T).LoadFromAddressAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedAsset`1.ToString
   name: ToString()
   href: api/R2API.AddressReferencedAssets.AddressReferencedAsset-1.html#R2API_AddressReferencedAssets_AddressReferencedAsset_1_ToString
@@ -477,6 +666,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsync
   nameWithType: AddressReferencedBuffDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedBuffDef.html#R2API_AddressReferencedAssets_AddressReferencedBuffDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedBuffDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedBuffDef.html#R2API_AddressReferencedAssets_AddressReferencedBuffDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedBuffDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedBuffDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedBuffDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedBuffDef)~RoR2.BuffDef
   name: implicit operator BuffDef(AddressReferencedBuffDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedBuffDef.html#R2API_AddressReferencedAssets_AddressReferencedBuffDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedBuffDef__RoR2_BuffDef
@@ -605,6 +807,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsync
   nameWithType: AddressReferencedEliteDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedEliteDef.html#R2API_AddressReferencedAssets_AddressReferencedEliteDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedEliteDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedEliteDef.html#R2API_AddressReferencedAssets_AddressReferencedEliteDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedEliteDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedEliteDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedEliteDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedEliteDef)~RoR2.EliteDef
   name: implicit operator EliteDef(AddressReferencedEliteDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedEliteDef.html#R2API_AddressReferencedAssets_AddressReferencedEliteDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedEliteDef__RoR2_EliteDef
@@ -733,6 +948,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsync
   nameWithType: AddressReferencedEquipmentDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.html#R2API_AddressReferencedAssets_AddressReferencedEquipmentDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedEquipmentDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.html#R2API_AddressReferencedAssets_AddressReferencedEquipmentDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedEquipmentDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedEquipmentDef)~RoR2.EquipmentDef
   name: implicit operator EquipmentDef(AddressReferencedEquipmentDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.html#R2API_AddressReferencedAssets_AddressReferencedEquipmentDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedEquipmentDef__RoR2_EquipmentDef
@@ -861,6 +1089,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsync
   nameWithType: AddressReferencedExpansionDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedExpansionDef.html#R2API_AddressReferencedAssets_AddressReferencedExpansionDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedExpansionDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedExpansionDef.html#R2API_AddressReferencedAssets_AddressReferencedExpansionDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedExpansionDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedExpansionDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedExpansionDef)~RoR2.ExpansionManagement.ExpansionDef
   name: implicit operator ExpansionDef(AddressReferencedExpansionDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedExpansionDef.html#R2API_AddressReferencedAssets_AddressReferencedExpansionDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedExpansionDef__RoR2_ExpansionManagement_ExpansionDef
@@ -1078,6 +1319,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsync
   nameWithType: AddressReferencedItemDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedItemDef.html#R2API_AddressReferencedAssets_AddressReferencedItemDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedItemDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedItemDef.html#R2API_AddressReferencedAssets_AddressReferencedItemDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedItemDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedItemDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedItemDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedItemDef)~RoR2.ItemDef
   name: implicit operator ItemDef(AddressReferencedItemDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedItemDef.html#R2API_AddressReferencedAssets_AddressReferencedItemDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedItemDef__RoR2_ItemDef
@@ -1345,6 +1599,19 @@ references:
   fullName.vb: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.New
   nameWithType: AddressReferencedUnlockableDef.AddressReferencedUnlockableDef
   nameWithType.vb: AddressReferencedUnlockableDef.New
+- uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog
+  name: CanLoadFromCatalog
+  href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_CanLoadFromCatalog
+  commentId: P:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog
+  fullName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog
+  nameWithType: AddressReferencedUnlockableDef.CanLoadFromCatalog
+- uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog*
+  name: CanLoadFromCatalog
+  href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_CanLoadFromCatalog_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.CanLoadFromCatalog
+  nameWithType: AddressReferencedUnlockableDef.CanLoadFromCatalog
 - uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.Load
   name: Load()
   href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_Load
@@ -1371,6 +1638,19 @@ references:
   isSpec: "True"
   fullName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsync
   nameWithType: AddressReferencedUnlockableDef.LoadAsync
+- uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine
+  name: LoadAsyncCoroutine()
+  href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_LoadAsyncCoroutine
+  commentId: M:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine
+  fullName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine()
+  nameWithType: AddressReferencedUnlockableDef.LoadAsyncCoroutine()
+- uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine*
+  name: LoadAsyncCoroutine
+  href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_LoadAsyncCoroutine_
+  commentId: Overload:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine
+  isSpec: "True"
+  fullName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.LoadAsyncCoroutine
+  nameWithType: AddressReferencedUnlockableDef.LoadAsyncCoroutine
 - uid: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedUnlockableDef)~RoR2.UnlockableDef
   name: implicit operator UnlockableDef(AddressReferencedUnlockableDef)
   href: api/R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.html#R2API_AddressReferencedAssets_AddressReferencedUnlockableDef_op_Implicit_R2API_AddressReferencedAssets_AddressReferencedUnlockableDef__RoR2_UnlockableDef
@@ -1603,6 +1883,19 @@ references:
   commentId: T:R2API.AddressablesPlugin
   fullName: R2API.AddressablesPlugin
   nameWithType: AddressablesPlugin
+- uid: R2API.AddressablesPlugin.Instance
+  name: Instance
+  href: api/R2API.AddressablesPlugin.html#R2API_AddressablesPlugin_Instance
+  commentId: P:R2API.AddressablesPlugin.Instance
+  fullName: R2API.AddressablesPlugin.Instance
+  nameWithType: AddressablesPlugin.Instance
+- uid: R2API.AddressablesPlugin.Instance*
+  name: Instance
+  href: api/R2API.AddressablesPlugin.html#R2API_AddressablesPlugin_Instance_
+  commentId: Overload:R2API.AddressablesPlugin.Instance
+  isSpec: "True"
+  fullName: R2API.AddressablesPlugin.Instance
+  nameWithType: AddressablesPlugin.Instance
 - uid: R2API.AddressablesPlugin.PluginGUID
   name: PluginGUID
   href: api/R2API.AddressablesPlugin.html#R2API_AddressablesPlugin_PluginGUID
@@ -1996,6 +2289,133 @@ references:
   commentId: T:R2API.ArtifactCodePlugin
   fullName: R2API.ArtifactCodePlugin
   nameWithType: ArtifactCodePlugin
+- uid: R2API.CharacterBodyAPI
+  name: CharacterBodyAPI
+  href: api/R2API.CharacterBodyAPI.html
+  commentId: T:R2API.CharacterBodyAPI
+  fullName: R2API.CharacterBodyAPI
+  nameWithType: CharacterBodyAPI
+- uid: R2API.CharacterBodyAPI.AddModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  name: AddModdedBodyFlag(CharacterBody, ModdedBodyFlag)
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_AddModdedBodyFlag_RoR2_CharacterBody_R2API_CharacterBodyAPI_ModdedBodyFlag_
+  commentId: M:R2API.CharacterBodyAPI.AddModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  fullName: R2API.CharacterBodyAPI.AddModdedBodyFlag(RoR2.CharacterBody, R2API.CharacterBodyAPI.ModdedBodyFlag)
+  nameWithType: CharacterBodyAPI.AddModdedBodyFlag(CharacterBody, CharacterBodyAPI.ModdedBodyFlag)
+- uid: R2API.CharacterBodyAPI.AddModdedBodyFlag*
+  name: AddModdedBodyFlag
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_AddModdedBodyFlag_
+  commentId: Overload:R2API.CharacterBodyAPI.AddModdedBodyFlag
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.AddModdedBodyFlag
+  nameWithType: CharacterBodyAPI.AddModdedBodyFlag
+- uid: R2API.CharacterBodyAPI.HasAnyModdedBodyFlag(RoR2.CharacterBody)
+  name: HasAnyModdedBodyFlag(CharacterBody)
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_HasAnyModdedBodyFlag_RoR2_CharacterBody_
+  commentId: M:R2API.CharacterBodyAPI.HasAnyModdedBodyFlag(RoR2.CharacterBody)
+  fullName: R2API.CharacterBodyAPI.HasAnyModdedBodyFlag(RoR2.CharacterBody)
+  nameWithType: CharacterBodyAPI.HasAnyModdedBodyFlag(CharacterBody)
+- uid: R2API.CharacterBodyAPI.HasAnyModdedBodyFlag*
+  name: HasAnyModdedBodyFlag
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_HasAnyModdedBodyFlag_
+  commentId: Overload:R2API.CharacterBodyAPI.HasAnyModdedBodyFlag
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.HasAnyModdedBodyFlag
+  nameWithType: CharacterBodyAPI.HasAnyModdedBodyFlag
+- uid: R2API.CharacterBodyAPI.HasModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  name: HasModdedBodyFlag(CharacterBody, ModdedBodyFlag)
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_HasModdedBodyFlag_RoR2_CharacterBody_R2API_CharacterBodyAPI_ModdedBodyFlag_
+  commentId: M:R2API.CharacterBodyAPI.HasModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  fullName: R2API.CharacterBodyAPI.HasModdedBodyFlag(RoR2.CharacterBody, R2API.CharacterBodyAPI.ModdedBodyFlag)
+  nameWithType: CharacterBodyAPI.HasModdedBodyFlag(CharacterBody, CharacterBodyAPI.ModdedBodyFlag)
+- uid: R2API.CharacterBodyAPI.HasModdedBodyFlag*
+  name: HasModdedBodyFlag
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_HasModdedBodyFlag_
+  commentId: Overload:R2API.CharacterBodyAPI.HasModdedBodyFlag
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.HasModdedBodyFlag
+  nameWithType: CharacterBodyAPI.HasModdedBodyFlag
+- uid: R2API.CharacterBodyAPI.Loaded
+  name: Loaded
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_Loaded
+  commentId: P:R2API.CharacterBodyAPI.Loaded
+  fullName: R2API.CharacterBodyAPI.Loaded
+  nameWithType: CharacterBodyAPI.Loaded
+- uid: R2API.CharacterBodyAPI.Loaded*
+  name: Loaded
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_Loaded_
+  commentId: Overload:R2API.CharacterBodyAPI.Loaded
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.Loaded
+  nameWithType: CharacterBodyAPI.Loaded
+- uid: R2API.CharacterBodyAPI.ModdedBodyFlag
+  name: CharacterBodyAPI.ModdedBodyFlag
+  href: api/R2API.CharacterBodyAPI.ModdedBodyFlag.html
+  commentId: T:R2API.CharacterBodyAPI.ModdedBodyFlag
+  fullName: R2API.CharacterBodyAPI.ModdedBodyFlag
+  nameWithType: CharacterBodyAPI.ModdedBodyFlag
+- uid: R2API.CharacterBodyAPI.ModdedBodyFlagCount
+  name: ModdedBodyFlagCount
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_ModdedBodyFlagCount
+  commentId: P:R2API.CharacterBodyAPI.ModdedBodyFlagCount
+  fullName: R2API.CharacterBodyAPI.ModdedBodyFlagCount
+  nameWithType: CharacterBodyAPI.ModdedBodyFlagCount
+- uid: R2API.CharacterBodyAPI.ModdedBodyFlagCount*
+  name: ModdedBodyFlagCount
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_ModdedBodyFlagCount_
+  commentId: Overload:R2API.CharacterBodyAPI.ModdedBodyFlagCount
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.ModdedBodyFlagCount
+  nameWithType: CharacterBodyAPI.ModdedBodyFlagCount
+- uid: R2API.CharacterBodyAPI.PluginGUID
+  name: PluginGUID
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_PluginGUID
+  commentId: F:R2API.CharacterBodyAPI.PluginGUID
+  fullName: R2API.CharacterBodyAPI.PluginGUID
+  nameWithType: CharacterBodyAPI.PluginGUID
+- uid: R2API.CharacterBodyAPI.PluginName
+  name: PluginName
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_PluginName
+  commentId: F:R2API.CharacterBodyAPI.PluginName
+  fullName: R2API.CharacterBodyAPI.PluginName
+  nameWithType: CharacterBodyAPI.PluginName
+- uid: R2API.CharacterBodyAPI.PluginVersion
+  name: PluginVersion
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_PluginVersion
+  commentId: F:R2API.CharacterBodyAPI.PluginVersion
+  fullName: R2API.CharacterBodyAPI.PluginVersion
+  nameWithType: CharacterBodyAPI.PluginVersion
+- uid: R2API.CharacterBodyAPI.RemoveModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  name: RemoveModdedBodyFlag(CharacterBody, ModdedBodyFlag)
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_RemoveModdedBodyFlag_RoR2_CharacterBody_R2API_CharacterBodyAPI_ModdedBodyFlag_
+  commentId: M:R2API.CharacterBodyAPI.RemoveModdedBodyFlag(RoR2.CharacterBody,R2API.CharacterBodyAPI.ModdedBodyFlag)
+  fullName: R2API.CharacterBodyAPI.RemoveModdedBodyFlag(RoR2.CharacterBody, R2API.CharacterBodyAPI.ModdedBodyFlag)
+  nameWithType: CharacterBodyAPI.RemoveModdedBodyFlag(CharacterBody, CharacterBodyAPI.ModdedBodyFlag)
+- uid: R2API.CharacterBodyAPI.RemoveModdedBodyFlag*
+  name: RemoveModdedBodyFlag
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_RemoveModdedBodyFlag_
+  commentId: Overload:R2API.CharacterBodyAPI.RemoveModdedBodyFlag
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.RemoveModdedBodyFlag
+  nameWithType: CharacterBodyAPI.RemoveModdedBodyFlag
+- uid: R2API.CharacterBodyAPI.ReserveBodyFlag
+  name: ReserveBodyFlag()
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_ReserveBodyFlag
+  commentId: M:R2API.CharacterBodyAPI.ReserveBodyFlag
+  fullName: R2API.CharacterBodyAPI.ReserveBodyFlag()
+  nameWithType: CharacterBodyAPI.ReserveBodyFlag()
+- uid: R2API.CharacterBodyAPI.ReserveBodyFlag*
+  name: ReserveBodyFlag
+  href: api/R2API.CharacterBodyAPI.html#R2API_CharacterBodyAPI_ReserveBodyFlag_
+  commentId: Overload:R2API.CharacterBodyAPI.ReserveBodyFlag
+  isSpec: "True"
+  fullName: R2API.CharacterBodyAPI.ReserveBodyFlag
+  nameWithType: CharacterBodyAPI.ReserveBodyFlag
+- uid: R2API.CharacterBodyPlugin
+  name: CharacterBodyPlugin
+  href: api/R2API.CharacterBodyPlugin.html
+  commentId: T:R2API.CharacterBodyPlugin
+  fullName: R2API.CharacterBodyPlugin
+  nameWithType: CharacterBodyPlugin
 - uid: R2API.ColorsAPI
   name: ColorsAPI
   href: api/R2API.ColorsAPI.html
@@ -2258,6 +2678,15 @@ references:
   commentId: M:R2API.ContentAddition.AddGameMode(UnityEngine.GameObject)
   fullName: R2API.ContentAddition.AddGameMode(UnityEngine.GameObject)
   nameWithType: ContentAddition.AddGameMode(GameObject)
+- uid: R2API.ContentAddition.AddGameMode(UnityEngine.GameObject,System.String)
+  name: AddGameMode(GameObject, string)
+  href: api/R2API.ContentAddition.html#R2API_ContentAddition_AddGameMode_UnityEngine_GameObject_System_String_
+  commentId: M:R2API.ContentAddition.AddGameMode(UnityEngine.GameObject,System.String)
+  name.vb: AddGameMode(GameObject, String)
+  fullName: R2API.ContentAddition.AddGameMode(UnityEngine.GameObject, string)
+  fullName.vb: R2API.ContentAddition.AddGameMode(UnityEngine.GameObject, String)
+  nameWithType: ContentAddition.AddGameMode(GameObject, string)
+  nameWithType.vb: ContentAddition.AddGameMode(GameObject, String)
 - uid: R2API.ContentAddition.AddGameMode*
   name: AddGameMode
   href: api/R2API.ContentAddition.html#R2API_ContentAddition_AddGameMode_
@@ -6956,24 +7385,6 @@ references:
   commentId: T:R2API.LanguagePlugin
   fullName: R2API.LanguagePlugin
   nameWithType: LanguagePlugin
-- uid: R2API.LightReplacement
-  name: LightReplacement
-  href: api/R2API.LightReplacement.html
-  commentId: T:R2API.LightReplacement
-  fullName: R2API.LightReplacement
-  nameWithType: LightReplacement
-- uid: R2API.LightReplacement.color
-  name: color
-  href: api/R2API.LightReplacement.html#R2API_LightReplacement_color
-  commentId: F:R2API.LightReplacement.color
-  fullName: R2API.LightReplacement.color
-  nameWithType: LightReplacement.color
-- uid: R2API.LightReplacement.light
-  name: light
-  href: api/R2API.LightReplacement.html#R2API_LightReplacement_light
-  commentId: F:R2API.LightReplacement.light
-  fullName: R2API.LightReplacement.light
-  nameWithType: LightReplacement.light
 - uid: R2API.LoadoutAPI
   name: LoadoutAPI
   href: api/R2API.LoadoutAPI.html
@@ -9578,6 +9989,49 @@ references:
   commentId: T:R2API.PrefabAPI
   fullName: R2API.PrefabAPI
   nameWithType: PrefabAPI
+- uid: R2API.PrefabAPI.CreateEmptyPrefab(System.String)
+  name: CreateEmptyPrefab(string)
+  href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_CreateEmptyPrefab_System_String_
+  commentId: M:R2API.PrefabAPI.CreateEmptyPrefab(System.String)
+  name.vb: CreateEmptyPrefab(String)
+  fullName: R2API.PrefabAPI.CreateEmptyPrefab(string)
+  fullName.vb: R2API.PrefabAPI.CreateEmptyPrefab(String)
+  nameWithType: PrefabAPI.CreateEmptyPrefab(string)
+  nameWithType.vb: PrefabAPI.CreateEmptyPrefab(String)
+- uid: R2API.PrefabAPI.CreateEmptyPrefab(System.String,System.Boolean)
+  name: CreateEmptyPrefab(string, bool)
+  href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_CreateEmptyPrefab_System_String_System_Boolean_
+  commentId: M:R2API.PrefabAPI.CreateEmptyPrefab(System.String,System.Boolean)
+  name.vb: CreateEmptyPrefab(String, Boolean)
+  fullName: R2API.PrefabAPI.CreateEmptyPrefab(string, bool)
+  fullName.vb: R2API.PrefabAPI.CreateEmptyPrefab(String, Boolean)
+  nameWithType: PrefabAPI.CreateEmptyPrefab(string, bool)
+  nameWithType.vb: PrefabAPI.CreateEmptyPrefab(String, Boolean)
+- uid: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject,System.String)
+  name: CreateEmptyPrefab(GameObject, string)
+  href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_CreateEmptyPrefab_UnityEngine_GameObject_System_String_
+  commentId: M:R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject,System.String)
+  name.vb: CreateEmptyPrefab(GameObject, String)
+  fullName: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject, string)
+  fullName.vb: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject, String)
+  nameWithType: PrefabAPI.CreateEmptyPrefab(GameObject, string)
+  nameWithType.vb: PrefabAPI.CreateEmptyPrefab(GameObject, String)
+- uid: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject,System.String,System.Boolean)
+  name: CreateEmptyPrefab(GameObject, string, bool)
+  href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_CreateEmptyPrefab_UnityEngine_GameObject_System_String_System_Boolean_
+  commentId: M:R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject,System.String,System.Boolean)
+  name.vb: CreateEmptyPrefab(GameObject, String, Boolean)
+  fullName: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject, string, bool)
+  fullName.vb: R2API.PrefabAPI.CreateEmptyPrefab(UnityEngine.GameObject, String, Boolean)
+  nameWithType: PrefabAPI.CreateEmptyPrefab(GameObject, string, bool)
+  nameWithType.vb: PrefabAPI.CreateEmptyPrefab(GameObject, String, Boolean)
+- uid: R2API.PrefabAPI.CreateEmptyPrefab*
+  name: CreateEmptyPrefab
+  href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_CreateEmptyPrefab_
+  commentId: Overload:R2API.PrefabAPI.CreateEmptyPrefab
+  isSpec: "True"
+  fullName: R2API.PrefabAPI.CreateEmptyPrefab
+  nameWithType: PrefabAPI.CreateEmptyPrefab
 - uid: R2API.PrefabAPI.InstantiateClone(UnityEngine.GameObject,System.String)
   name: InstantiateClone(GameObject, string)
   href: api/R2API.PrefabAPI.html#R2API_PrefabAPI_InstantiateClone_UnityEngine_GameObject_System_String_
@@ -10111,6 +10565,18 @@ references:
   commentId: F:R2API.RecalculateStatsAPI.StatHookEventArgs.healthTotalMult
   fullName: R2API.RecalculateStatsAPI.StatHookEventArgs.healthTotalMult
   nameWithType: RecalculateStatsAPI.StatHookEventArgs.healthTotalMult
+- uid: R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountAdd
+  name: jumpCountAdd
+  href: api/R2API.RecalculateStatsAPI.StatHookEventArgs.html#R2API_RecalculateStatsAPI_StatHookEventArgs_jumpCountAdd
+  commentId: F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountAdd
+  fullName: R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountAdd
+  nameWithType: RecalculateStatsAPI.StatHookEventArgs.jumpCountAdd
+- uid: R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountMult
+  name: jumpCountMult
+  href: api/R2API.RecalculateStatsAPI.StatHookEventArgs.html#R2API_RecalculateStatsAPI_StatHookEventArgs_jumpCountMult
+  commentId: F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountMult
+  fullName: R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountMult
+  nameWithType: RecalculateStatsAPI.StatHookEventArgs.jumpCountMult
 - uid: R2API.RecalculateStatsAPI.StatHookEventArgs.jumpPowerMultAdd
   name: jumpPowerMultAdd
   href: api/R2API.RecalculateStatsAPI.StatHookEventArgs.html#R2API_RecalculateStatsAPI_StatHookEventArgs_jumpPowerMultAdd
@@ -11320,6 +11786,103 @@ references:
   commentId: F:R2API.SkinDefInfo.UnlockableDef
   fullName: R2API.SkinDefInfo.UnlockableDef
   nameWithType: SkinDefInfo.UnlockableDef
+- uid: R2API.SkinDefInfo.op_Implicit(R2API.SkinDefInfo)~R2API.SkinDefParamsInfo
+  name: implicit operator SkinDefParamsInfo(SkinDefInfo)
+  href: api/R2API.SkinDefInfo.html#R2API_SkinDefInfo_op_Implicit_R2API_SkinDefInfo__R2API_SkinDefParamsInfo
+  commentId: M:R2API.SkinDefInfo.op_Implicit(R2API.SkinDefInfo)~R2API.SkinDefParamsInfo
+  name.vb: CType(SkinDefInfo)
+  fullName: R2API.SkinDefInfo.implicit operator R2API.SkinDefParamsInfo(R2API.SkinDefInfo)
+  fullName.vb: R2API.SkinDefInfo.CType(R2API.SkinDefInfo)
+  nameWithType: SkinDefInfo.implicit operator SkinDefParamsInfo(SkinDefInfo)
+  nameWithType.vb: SkinDefInfo.CType(SkinDefInfo)
+- uid: R2API.SkinDefInfo.op_Implicit*
+  name: implicit operator
+  href: api/R2API.SkinDefInfo.html#R2API_SkinDefInfo_op_Implicit_
+  commentId: Overload:R2API.SkinDefInfo.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: R2API.SkinDefInfo.implicit operator
+  fullName.vb: R2API.SkinDefInfo.CType
+  nameWithType: SkinDefInfo.implicit operator
+  nameWithType.vb: SkinDefInfo.CType
+- uid: R2API.SkinDefParamsInfo
+  name: SkinDefParamsInfo
+  href: api/R2API.SkinDefParamsInfo.html
+  commentId: T:R2API.SkinDefParamsInfo
+  fullName: R2API.SkinDefParamsInfo
+  nameWithType: SkinDefParamsInfo
+- uid: R2API.SkinDefParamsInfo.BaseSkins
+  name: BaseSkins
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_BaseSkins
+  commentId: F:R2API.SkinDefParamsInfo.BaseSkins
+  fullName: R2API.SkinDefParamsInfo.BaseSkins
+  nameWithType: SkinDefParamsInfo.BaseSkins
+- uid: R2API.SkinDefParamsInfo.GameObjectActivations
+  name: GameObjectActivations
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_GameObjectActivations
+  commentId: F:R2API.SkinDefParamsInfo.GameObjectActivations
+  fullName: R2API.SkinDefParamsInfo.GameObjectActivations
+  nameWithType: SkinDefParamsInfo.GameObjectActivations
+- uid: R2API.SkinDefParamsInfo.Icon
+  name: Icon
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_Icon
+  commentId: F:R2API.SkinDefParamsInfo.Icon
+  fullName: R2API.SkinDefParamsInfo.Icon
+  nameWithType: SkinDefParamsInfo.Icon
+- uid: R2API.SkinDefParamsInfo.MeshReplacements
+  name: MeshReplacements
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_MeshReplacements
+  commentId: F:R2API.SkinDefParamsInfo.MeshReplacements
+  fullName: R2API.SkinDefParamsInfo.MeshReplacements
+  nameWithType: SkinDefParamsInfo.MeshReplacements
+- uid: R2API.SkinDefParamsInfo.MinionSkinReplacements
+  name: MinionSkinReplacements
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_MinionSkinReplacements
+  commentId: F:R2API.SkinDefParamsInfo.MinionSkinReplacements
+  fullName: R2API.SkinDefParamsInfo.MinionSkinReplacements
+  nameWithType: SkinDefParamsInfo.MinionSkinReplacements
+- uid: R2API.SkinDefParamsInfo.Name
+  name: Name
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_Name
+  commentId: F:R2API.SkinDefParamsInfo.Name
+  fullName: R2API.SkinDefParamsInfo.Name
+  nameWithType: SkinDefParamsInfo.Name
+- uid: R2API.SkinDefParamsInfo.NameToken
+  name: NameToken
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_NameToken
+  commentId: F:R2API.SkinDefParamsInfo.NameToken
+  fullName: R2API.SkinDefParamsInfo.NameToken
+  nameWithType: SkinDefParamsInfo.NameToken
+- uid: R2API.SkinDefParamsInfo.ProjectileGhostReplacements
+  name: ProjectileGhostReplacements
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_ProjectileGhostReplacements
+  commentId: F:R2API.SkinDefParamsInfo.ProjectileGhostReplacements
+  fullName: R2API.SkinDefParamsInfo.ProjectileGhostReplacements
+  nameWithType: SkinDefParamsInfo.ProjectileGhostReplacements
+- uid: R2API.SkinDefParamsInfo.RendererInfos
+  name: RendererInfos
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_RendererInfos
+  commentId: F:R2API.SkinDefParamsInfo.RendererInfos
+  fullName: R2API.SkinDefParamsInfo.RendererInfos
+  nameWithType: SkinDefParamsInfo.RendererInfos
+- uid: R2API.SkinDefParamsInfo.RootObject
+  name: RootObject
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_RootObject
+  commentId: F:R2API.SkinDefParamsInfo.RootObject
+  fullName: R2API.SkinDefParamsInfo.RootObject
+  nameWithType: SkinDefParamsInfo.RootObject
+- uid: R2API.SkinDefParamsInfo.SkinDefParams
+  name: SkinDefParams
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_SkinDefParams
+  commentId: F:R2API.SkinDefParamsInfo.SkinDefParams
+  fullName: R2API.SkinDefParamsInfo.SkinDefParams
+  nameWithType: SkinDefParamsInfo.SkinDefParams
+- uid: R2API.SkinDefParamsInfo.UnlockableDef
+  name: UnlockableDef
+  href: api/R2API.SkinDefParamsInfo.html#R2API_SkinDefParamsInfo_UnlockableDef
+  commentId: F:R2API.SkinDefParamsInfo.UnlockableDef
+  fullName: R2API.SkinDefParamsInfo.UnlockableDef
+  nameWithType: SkinDefParamsInfo.UnlockableDef
 - uid: R2API.SkinIDRS
   name: SkinIDRS
   href: api/R2API.SkinIDRS.html
@@ -11352,28 +11915,6 @@ references:
   isSpec: "True"
   fullName: R2API.SkinIDRS.AddPair
   nameWithType: SkinIDRS.AddPair
-- uid: R2API.SkinLightReplacement
-  name: SkinLightReplacement
-  href: api/R2API.SkinLightReplacement.html
-  commentId: T:R2API.SkinLightReplacement
-  fullName: R2API.SkinLightReplacement
-  nameWithType: SkinLightReplacement
-- uid: R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef,R2API.LightReplacement[])
-  name: AddLightReplacement(SkinDef, params LightReplacement[])
-  href: api/R2API.SkinLightReplacement.html#R2API_SkinLightReplacement_AddLightReplacement_RoR2_SkinDef_R2API_LightReplacement___
-  commentId: M:R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef,R2API.LightReplacement[])
-  name.vb: AddLightReplacement(SkinDef, ParamArray LightReplacement())
-  fullName: R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef, params R2API.LightReplacement[])
-  fullName.vb: R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef, ParamArray R2API.LightReplacement())
-  nameWithType: SkinLightReplacement.AddLightReplacement(SkinDef, params LightReplacement[])
-  nameWithType.vb: SkinLightReplacement.AddLightReplacement(SkinDef, ParamArray LightReplacement())
-- uid: R2API.SkinLightReplacement.AddLightReplacement*
-  name: AddLightReplacement
-  href: api/R2API.SkinLightReplacement.html#R2API_SkinLightReplacement_AddLightReplacement_
-  commentId: Overload:R2API.SkinLightReplacement.AddLightReplacement
-  isSpec: "True"
-  fullName: R2API.SkinLightReplacement.AddLightReplacement
-  nameWithType: SkinLightReplacement.AddLightReplacement
 - uid: R2API.SkinVFX
   name: SkinVFX
   href: api/R2API.SkinVFX.html
@@ -11504,6 +12045,15 @@ references:
   fullName.vb: R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject, R2API.SkinDefInfo)
   nameWithType: Skins.AddSkinToCharacter(GameObject?, SkinDefInfo)
   nameWithType.vb: Skins.AddSkinToCharacter(GameObject, SkinDefInfo)
+- uid: R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefParamsInfo)
+  name: AddSkinToCharacter(GameObject?, SkinDefParamsInfo)
+  href: api/R2API.Skins.html#R2API_Skins_AddSkinToCharacter_UnityEngine_GameObject_R2API_SkinDefParamsInfo_
+  commentId: M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefParamsInfo)
+  name.vb: AddSkinToCharacter(GameObject, SkinDefParamsInfo)
+  fullName: R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject?, R2API.SkinDefParamsInfo)
+  fullName.vb: R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject, R2API.SkinDefParamsInfo)
+  nameWithType: Skins.AddSkinToCharacter(GameObject?, SkinDefParamsInfo)
+  nameWithType.vb: Skins.AddSkinToCharacter(GameObject, SkinDefParamsInfo)
 - uid: R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,RoR2.SkinDef)
   name: AddSkinToCharacter(GameObject?, SkinDef?)
   href: api/R2API.Skins.html#R2API_Skins_AddSkinToCharacter_UnityEngine_GameObject_RoR2_SkinDef_
@@ -11526,6 +12076,12 @@ references:
   commentId: M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefInfo)
   fullName: R2API.Skins.CreateNewSkinDef(R2API.SkinDefInfo)
   nameWithType: Skins.CreateNewSkinDef(SkinDefInfo)
+- uid: R2API.Skins.CreateNewSkinDef(R2API.SkinDefParamsInfo)
+  name: CreateNewSkinDef(SkinDefParamsInfo)
+  href: api/R2API.Skins.html#R2API_Skins_CreateNewSkinDef_R2API_SkinDefParamsInfo_
+  commentId: M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefParamsInfo)
+  fullName: R2API.Skins.CreateNewSkinDef(R2API.SkinDefParamsInfo)
+  nameWithType: Skins.CreateNewSkinDef(SkinDefParamsInfo)
 - uid: R2API.Skins.CreateNewSkinDef*
   name: CreateNewSkinDef
   href: api/R2API.Skins.html#R2API_Skins_CreateNewSkinDef_
@@ -14009,6 +14565,18 @@ references:
   commentId: N:RoR2
   fullName: RoR2
   nameWithType: RoR2
+- uid: RoR2.CharacterBody
+  name: CharacterBody
+  href: api/RoR2.CharacterBody.html
+  commentId: T:RoR2.CharacterBody
+  fullName: RoR2.CharacterBody
+  nameWithType: CharacterBody
+- uid: RoR2.CharacterBody.r2api_moddedBodyFlags
+  name: r2api_moddedBodyFlags
+  href: api/RoR2.CharacterBody.html#RoR2_CharacterBody_r2api_moddedBodyFlags
+  commentId: F:RoR2.CharacterBody.r2api_moddedBodyFlags
+  fullName: RoR2.CharacterBody.r2api_moddedBodyFlags
+  nameWithType: CharacterBody.r2api_moddedBodyFlags
 - uid: RoR2.CrocoDamageTypeController
   name: CrocoDamageTypeController
   href: api/RoR2.CrocoDamageTypeController.html
