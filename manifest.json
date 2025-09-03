@@ -674,6 +674,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.DotAPI.CustomDotDamageEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.DotAPI.CustomDotDamageEvaluation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.DotAPI.CustomDotVisual.yml",
       "output": {
         ".html": {
@@ -1614,6 +1624,96 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.ISkillVariantStruct-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.ISkillVariantStruct-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.LightInfoSkillVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.LightInfoSkillVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.MeshReplacementSkillVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.MeshReplacementSkillVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.OnSkinApplied.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.OnSkinApplied.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.RendererInfoSkillVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.RendererInfoSkillVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinSkillVariantsDef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinSkillVariantsDef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.SkinVFX.OnEffectSpawnedDelegate.yml",
       "output": {
         ".html": {
@@ -1648,6 +1748,26 @@
       "output": {
         ".html": {
           "relative_path": "api/R2API.Skins.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinsAPI.Interop.SkinAPIInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinsAPI.Interop.SkinAPIInterop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinsAPI.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinsAPI.Interop.html"
         }
       },
       "version": ""
@@ -2214,6 +2334,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.CharacterModel.LightInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.CharacterModel.LightInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.CharacterModel.RendererInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.CharacterModel.RendererInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.CharacterModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.CharacterModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/RoR2.CrocoDamageTypeController.yml",
       "output": {
         ".html": {
@@ -2238,6 +2388,16 @@
       "output": {
         ".html": {
           "relative_path": "api/RoR2.GenericSkill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.ModelSkinController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.ModelSkinController.html"
         }
       },
       "version": ""
@@ -2274,6 +2434,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.GhostReplacementTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.GhostReplacementTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.LightReplacementTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.LightReplacementTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.MeshReplacementTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.MeshReplacementTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.MinionSkinTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.MinionSkinTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.RuntimeSkin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.RuntimeSkin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDefParams.MeshReplacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDefParams.MeshReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDefParams.MinionSkinReplacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDefParams.MinionSkinReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDefParams.ProjectileGhostReplacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDefParams.ProjectileGhostReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.SkinDefParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.SkinDefParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/RoR2.yml",
       "output": {
         ".html": {
@@ -2296,11 +2556,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2319,11 +2579,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
