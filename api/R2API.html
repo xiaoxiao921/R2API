@@ -202,6 +202,11 @@ All mods will be working off the same settings, so operators like *=, +=, -=, an
       <section></section>
       <h4><a class="xref" href="R2API.ElitesPlugin.html">ElitesPlugin</a></h4>
       <section></section>
+      <h4><a class="xref" href="R2API.ExecuteAPI.html">ExecuteAPI</a></h4>
+      <section><p>API for stacking character execute thresholds with diminishing returns.</p>
+</section>
+      <h4><a class="xref" href="R2API.ExecutePlugin.html">ExecutePlugin</a></h4>
+      <section></section>
       <h4><a class="xref" href="R2API.ExtendedRuleChoiceDef.html">ExtendedRuleChoiceDef</a></h4>
       <section><p>Represents an Extended version of a RuleChoiceDef
 Unlike regular RuleChoiceDefs, an ExtendedRulechoiceDef can have multiple requirements, such as multiple expansions or multiple unlockables required.</p>
@@ -259,6 +264,8 @@ Unlike regular RuleChoiceDefs, an ExtendedRulechoiceDef can have multiple requir
       <h4><a class="xref" href="R2API.RecalculateStatsAPI.html">RecalculateStatsAPI</a></h4>
       <section><p>API for computing bonuses granted by factors inside RecalculateStats.</p>
 </section>
+      <h4><a class="xref" href="R2API.RecalculateStatsAPI.CustomStats.html">RecalculateStatsAPI.CustomStats</a></h4>
+      <section></section>
       <h4><a class="xref" href="R2API.RecalculateStatsAPI.StatHookEventArgs.html">RecalculateStatsAPI.StatHookEventArgs</a></h4>
       <section><p>A collection of modifiers for various stats. It will be passed down the event chain of GetStatCoefficients; add to the contained values to modify stats.</p>
 </section>
@@ -330,6 +337,13 @@ This can also be used to an extent by unity editor users as a baseline for whats
       <section><p>A collection of standard level scaling values, for use with <a class="xref" href="R2API.RecalculateStatsAPI.html">RecalculateStatsAPI</a>.</p>
 </section>
       <h4><a class="xref" href="R2API.StringSerializerExtensions.html">StringSerializerExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.TeamsAPI.html">TeamsAPI</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.TeamsAPI.TeamBehavior.html">TeamsAPI.TeamBehavior</a></h4>
+      <section><p>Determines how a team should behave and interact with the game.</p>
+</section>
+      <h4><a class="xref" href="R2API.TeamsPlugin.html">TeamsPlugin</a></h4>
       <section></section>
       <h4><a class="xref" href="R2API.TempVisualEffectAPI.html">TempVisualEffectAPI</a></h4>
       <section><p>API for adding custom TemporaryVisualEffects to CharacterBody components.</p>
@@ -421,6 +435,9 @@ Enums
       <h4><a class="xref" href="R2API.ModdedProcType.html">ModdedProcType</a></h4>
       <section><p>A modded equivalent of <span class="xref">RoR2.ProcType</span> for use with <a class="xref" href="R2API.ProcTypeAPI.html">ProcTypeAPI</a>.</p>
 </section>
+      <h4><a class="xref" href="R2API.TeamsAPI.TeamClassification.html">TeamsAPI.TeamClassification</a></h4>
+      <section><p>What vanilla team's behavior a modded team should be based on</p>
+</section>
     <h3 id="delegates">
 Delegates
 </h3>
@@ -435,6 +452,14 @@ Delegates
       <h4><a class="xref" href="R2API.DotAPI.CustomDotVisual.html">DotAPI.CustomDotVisual</a></h4>
       <section><p>Allows custom visuals for your buff. think bleeding etc. <span class="xref">RoR2.DotController.FixedUpdate()</span></p>
 </section>
+      <h4><a class="xref" href="R2API.ExecuteAPI.CalculateAdditiveExecuteThresholdEventHandler.html">ExecuteAPI.CalculateAdditiveExecuteThresholdEventHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.ExecuteAPI.CalculateAdditiveExecuteThresholdForViewerEventHandler.html">ExecuteAPI.CalculateAdditiveExecuteThresholdForViewerEventHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.ExecuteAPI.CalculateExecuteThresholdEventHandler.html">ExecuteAPI.CalculateExecuteThresholdEventHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="R2API.ExecuteAPI.CalculateExecuteThresholdForViewerEventHandler.html">ExecuteAPI.CalculateExecuteThresholdForViewerEventHandler</a></h4>
+      <section></section>
       <h4><a class="xref" href="R2API.RecalculateStatsAPI.StatHookEventHandler.html">RecalculateStatsAPI.StatHookEventHandler</a></h4>
       <section><p>Used as the delegate type for the GetStatCoefficients event.</p>
 </section>
