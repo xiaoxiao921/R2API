@@ -11943,6 +11943,12 @@ references:
   isSpec: "True"
   fullName: R2API.Networking.NetworkingHelpers.ApplyBuff
   nameWithType: NetworkingHelpers.ApplyBuff
+- uid: R2API.Networking.NetworkingHelpers.ApplyDot(RoR2.HealthComponent,RoR2.InflictDotInfo)
+  name: ApplyDot(HealthComponent, InflictDotInfo)
+  href: api/R2API.Networking.NetworkingHelpers.html#R2API_Networking_NetworkingHelpers_ApplyDot_RoR2_HealthComponent_RoR2_InflictDotInfo_
+  commentId: M:R2API.Networking.NetworkingHelpers.ApplyDot(RoR2.HealthComponent,RoR2.InflictDotInfo)
+  fullName: R2API.Networking.NetworkingHelpers.ApplyDot(RoR2.HealthComponent, RoR2.InflictDotInfo)
+  nameWithType: NetworkingHelpers.ApplyDot(HealthComponent, InflictDotInfo)
 - uid: R2API.Networking.NetworkingHelpers.ApplyDot(RoR2.HealthComponent,UnityEngine.GameObject,RoR2.DotController.DotIndex,System.Single,System.Single)
   name: ApplyDot(HealthComponent, GameObject, DotIndex, float, float)
   href: api/R2API.Networking.NetworkingHelpers.html#R2API_Networking_NetworkingHelpers_ApplyDot_RoR2_HealthComponent_UnityEngine_GameObject_RoR2_DotController_DotIndex_System_Single_System_Single_
@@ -12562,12 +12568,12 @@ references:
   commentId: F:R2API.RecalculateStatsAPI.CustomStats.barrierDecayRateMult
   fullName: R2API.RecalculateStatsAPI.CustomStats.barrierDecayRateMult
   nameWithType: RecalculateStatsAPI.CustomStats.barrierDecayRateMult
-- uid: R2API.RecalculateStatsAPI.CustomStats.luckAdd
-  name: luckAdd
-  href: api/R2API.RecalculateStatsAPI.CustomStats.html#R2API_RecalculateStatsAPI_CustomStats_luckAdd
-  commentId: F:R2API.RecalculateStatsAPI.CustomStats.luckAdd
-  fullName: R2API.RecalculateStatsAPI.CustomStats.luckAdd
-  nameWithType: RecalculateStatsAPI.CustomStats.luckAdd
+- uid: R2API.RecalculateStatsAPI.CustomStats.luckFromBody
+  name: luckFromBody
+  href: api/R2API.RecalculateStatsAPI.CustomStats.html#R2API_RecalculateStatsAPI_CustomStats_luckFromBody
+  commentId: F:R2API.RecalculateStatsAPI.CustomStats.luckFromBody
+  fullName: R2API.RecalculateStatsAPI.CustomStats.luckFromBody
+  nameWithType: RecalculateStatsAPI.CustomStats.luckFromBody
 - uid: R2API.RecalculateStatsAPI.GetStatCoefficients
   name: GetStatCoefficients
   href: api/R2API.RecalculateStatsAPI.html#R2API_RecalculateStatsAPI_GetStatCoefficients
