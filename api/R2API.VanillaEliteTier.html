@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Enum CharacterBodyAPI.ModdedBodyFlag </title>
+      <title>Enum VanillaEliteTier </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Enum CharacterBodyAPI.ModdedBodyFlag ">
+      <meta name="title" content="Enum VanillaEliteTier ">
     
-    
+    <meta name="description" content="Provides a list of names that correspond to each  in the  array">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,35 +66,83 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="R2API.CharacterBodyAPI.ModdedBodyFlag">
+            <article class="content wrap" id="_content" data-uid="R2API.VanillaEliteTier">
 
 
 
 
-  <h1 id="R2API_CharacterBodyAPI_ModdedBodyFlag" data-uid="R2API.CharacterBodyAPI.ModdedBodyFlag" class="text-break">Enum CharacterBodyAPI.ModdedBodyFlag</h1>
-  <div class="markdown level0 summary"></div>
+  <h1 id="R2API_VanillaEliteTier" data-uid="R2API.VanillaEliteTier" class="text-break">Enum VanillaEliteTier</h1>
+  <div class="markdown level0 summary"><p>Provides a list of names that correspond to each <span class="xref">RoR2.CombatDirector.EliteTierDef</span> in the <a class="xref" href="R2API.EliteAPI.html#R2API_EliteAPI_VanillaEliteTiers">VanillaEliteTiers</a> array</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="R2API.html">R2API</a></h6>
-  <h6><strong>Assembly</strong>: R2API.CharacterBody.dll</h6>
-  <h5 id="R2API_CharacterBodyAPI_ModdedBodyFlag_syntax">Syntax</h5>
+  <h6><strong>Assembly</strong>: R2API.Elites.dll</h6>
+  <h5 id="R2API_VanillaEliteTier_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum CharacterBodyAPI.ModdedBodyFlag</code></pre>
+    <pre><code class="lang-csharp hljs">public enum VanillaEliteTier</code></pre>
   </div>
+  <h3 id="fields">Fields
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    </thead></thead><tbody>
+      <tr>
+        <td id="R2API_VanillaEliteTier_BaseTier1">BaseTier1</td>
+        <td><p>Stages 1-2</p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_BaseTier1Honor">BaseTier1Honor</td>
+        <td><p>Stages 1-2 with <span class="xref">RoR2.SpawnCard.EliteRules.ArtifactOnly</span></p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_FullTier1">FullTier1</td>
+        <td><p>All <a class="xref" href="R2API.VanillaEliteTier.html#R2API_VanillaEliteTier_BaseTier1">BaseTier1</a> elites plus <span class="xref">RoR2.DLC2Content.Elites.Aurelionite</span>, Stages 3+</p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_FullTier1Honor">FullTier1Honor</td>
+        <td><p>All <a class="xref" href="R2API.VanillaEliteTier.html#R2API_VanillaEliteTier_BaseTier1Honor">BaseTier1Honor</a> elites plus <span class="xref">RoR2.DLC2Content.Elites.AurelioniteHonor</span>, Stages 3+ with <span class="xref">RoR2.SpawnCard.EliteRules.ArtifactOnly</span></p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_Lunar">Lunar</td>
+        <td><p>Only for <span class="xref">RoR2.SpawnCard.EliteRules.Lunar</span></p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_None">None</td>
+        <td><p>No Elites</p>
+</td>
+      </tr>
+      <tr>
+        <td id="R2API_VanillaEliteTier_Tier2">Tier2</td>
+        <td><p>When <span class="xref">RoR2.Run.stageClearCount</span> is greater or equal to Run.stagesPerLoop</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="R2API.Networking.Interfaces.NetRequestExtensions.html#R2API_Networking_Interfaces_NetRequestExtensions_Send__2___0_R2API_Networking_NetworkDestination_">NetRequestExtensions.Send&lt;CharacterBodyAPI.ModdedBodyFlag, TReply&gt;(CharacterBodyAPI.ModdedBodyFlag, NetworkDestination)</a>
+      <a class="xref" href="R2API.Networking.Interfaces.NetRequestExtensions.html#R2API_Networking_Interfaces_NetRequestExtensions_Send__2___0_R2API_Networking_NetworkDestination_">NetRequestExtensions.Send&lt;VanillaEliteTier, TReply&gt;(VanillaEliteTier, NetworkDestination)</a>
   </div>
   <div>
-      <a class="xref" href="R2API.Networking.Interfaces.NetRequestExtensions.html#R2API_Networking_Interfaces_NetRequestExtensions_Send__2___0_UnityEngine_Networking_NetworkConnection_">NetRequestExtensions.Send&lt;CharacterBodyAPI.ModdedBodyFlag, TReply&gt;(CharacterBodyAPI.ModdedBodyFlag, NetworkConnection)</a>
+      <a class="xref" href="R2API.Networking.Interfaces.NetRequestExtensions.html#R2API_Networking_Interfaces_NetRequestExtensions_Send__2___0_UnityEngine_Networking_NetworkConnection_">NetRequestExtensions.Send&lt;VanillaEliteTier, TReply&gt;(VanillaEliteTier, NetworkConnection)</a>
   </div>
   <div>
-      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_GetStructPropertyValue__2___0__System_String_">Reflection.GetStructPropertyValue&lt;CharacterBodyAPI.ModdedBodyFlag, TValue&gt;(ref CharacterBodyAPI.ModdedBodyFlag, string)</a>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_GetStructPropertyValue__2___0__System_String_">Reflection.GetStructPropertyValue&lt;VanillaEliteTier, TValue&gt;(ref VanillaEliteTier, string)</a>
   </div>
   <div>
-      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructFieldValue__2___0__System_String___1_">Reflection.SetStructFieldValue&lt;CharacterBodyAPI.ModdedBodyFlag, TValue&gt;(ref CharacterBodyAPI.ModdedBodyFlag, string, TValue)</a>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructFieldValue__2___0__System_String___1_">Reflection.SetStructFieldValue&lt;VanillaEliteTier, TValue&gt;(ref VanillaEliteTier, string, TValue)</a>
   </div>
   <div>
-      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructPropertyValue__2___0__System_String___1_">Reflection.SetStructPropertyValue&lt;CharacterBodyAPI.ModdedBodyFlag, TValue&gt;(ref CharacterBodyAPI.ModdedBodyFlag, string, TValue)</a>
+      <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_SetStructPropertyValue__2___0__System_String___1_">Reflection.SetStructPropertyValue&lt;VanillaEliteTier, TValue&gt;(ref VanillaEliteTier, string, TValue)</a>
   </div>
   <div>
       <a class="xref" href="R2API.Utils.Reflection.html#R2API_Utils_Reflection_GetFieldValue__1_System_Object_System_String_">Reflection.GetFieldValue&lt;TReturn&gt;(object, string)</a>
@@ -128,10 +176,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/xiaoxiao921/R2API/new/master/apiSpec/new?filename=R2API_CharacterBodyAPI_ModdedBodyFlag.md&amp;value=---%0Auid%3A%20R2API.CharacterBodyAPI.ModdedBodyFlag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/xiaoxiao921/R2API/new/master/apiSpec/new?filename=R2API_VanillaEliteTier.md&amp;value=---%0Auid%3A%20R2API.VanillaEliteTier%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/xiaoxiao921/R2API/blob/master/R2API.CharacterBody/CharacterBodyAPI.cs/#L131" class="contribution-link">View Source</a>
+                    <a href="https://github.com/xiaoxiao921/R2API/blob/master/R2API.Elites/VanillaEliteTier.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

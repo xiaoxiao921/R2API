@@ -114,6 +114,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.AddressReferencedAssets.AddressableComponentRequirementAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.AddressReferencedAssets.AddressableComponentRequirementAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.AddressReferencedAssets.NoCatalogLoadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.AddressReferencedAssets.NoCatalogLoadAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.AddressReferencedAssets.yml",
       "output": {
         ".html": {
@@ -488,6 +508,56 @@
       "output": {
         ".html": {
           "relative_path": "api/R2API.ArtifactCodePlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.BuffsAPI.CustomSimpleSpriteAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.BuffsAPI.CustomSimpleSpriteAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.BuffsAPI.CustomStackingDisplayMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.BuffsAPI.CustomStackingDisplayMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.BuffsAPI.ModdedBuffFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.BuffsAPI.ModdedBuffFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.BuffsAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.BuffsAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.BuffsPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.BuffsPlugin.html"
         }
       },
       "version": ""
@@ -1018,6 +1088,36 @@
       "output": {
         ".html": {
           "relative_path": "api/R2API.ExtendedRuleChoiceDef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.FootstepAPI.Footstep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.FootstepAPI.Footstep.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.FootstepAPI.FootstepReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.FootstepAPI.FootstepReport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/R2API.FootstepAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.FootstepAPI.html"
         }
       },
       "version": ""
@@ -2054,6 +2154,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.SkinCustomGameobjectComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.SkinCustomGameobjectComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.SkinDefInfo.yml",
       "output": {
         ".html": {
@@ -2824,6 +2934,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/R2API.VanillaEliteTier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/R2API.VanillaEliteTier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/R2API.yml",
       "output": {
         ".html": {
@@ -3048,6 +3168,26 @@
       "output": {
         ".html": {
           "relative_path": "api/RoR2.TeamMask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.UI.SprintIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.UI.SprintIcon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RoR2.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RoR2.UI.html"
         }
       },
       "version": ""
